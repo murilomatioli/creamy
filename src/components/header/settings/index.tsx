@@ -1,14 +1,15 @@
 import React from "react";
 import Image from "next/image";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faUser } from '@fortawesome/free-solid-svg-icons';
+import { FaRegUserCircle, FaCartPlus } from "react-icons/fa";
+
+
 
 export default function HeaderSettings(){
     return(
-        <ul className="flex items-center">
-            <li><Image src="/images/brazilflag.png" className="" alt="Bandeira brasileira" width={50} height={20} /></li>
-            <li></li>
-            <li><FontAwesomeIcon icon={faUser}/></li>
+        <ul className="flex items-center w-60 justify-between ">
+            <li><Image src="/images/brazilflag.png" className="rounded-xl" alt="Bandeira brasileira" width={43} height={20} /></li>
+            <li><FaRegUserCircle size={30}/></li>
+            <li><FaCartPlus size={30} /></li>
         </ul>
     )
 }
