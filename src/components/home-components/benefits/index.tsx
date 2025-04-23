@@ -4,7 +4,7 @@ import { RiCoupon2Line } from "react-icons/ri";
 
 export default function HomeBenefits(){
     return( 
-        <div className="flex text-sm font-bold text-gray-700 ">
+        <div className="flex m-auto text-sm font-bold text-gray-700 ">
             <div className="flex space-x-4 items-center border-1 w-72 border-r-0 border-gray-800 px-2">
                 <MdOutlineLocalShipping size={60} className="text-sky-400"/>
                 <p>Frete grátis para Pedidos Acima de R$ 175</p>
@@ -15,7 +15,7 @@ export default function HomeBenefits(){
             </div>
             <div className="flex border-1 w-72 space-x-4 items-center border-r-0 border-gray-800 px-2">
                 <MdOutlineStorefront size={80} className="text-sky-400"/>
-                <p w-fit>Retire no Quiosque mais próximo em até 1 dia útil após sua compra</p>
+                <p>Retire no Quiosque mais próximo em até 1 dia útil após sua compra</p>
             </div>
             <div className="flex border-1 w-72 space-x-4 items-center border-gray-800 px-2">
                 <RiCoupon2Line size={60} className="text-sky-400"/>
